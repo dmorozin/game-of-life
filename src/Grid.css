@@ -1,0 +1,64 @@
+body {
+  font-family: "Staatliches", cursive;
+  background: #0d0d0d;
+}
+
+.container {
+  width: 906px;
+  margin: 60px auto;
+}
+
+h1 {
+  color: #cc00cc;
+  text-align: center;
+  margin: 0 0 40px 0;
+  font-size: 50px;
+}
+
+.btns {
+  text-align: center;
+}
+
+button {
+  margin: 5px 15px;
+  height: 50px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: black;
+  color: #cc00cc;
+  font-size: 17px;
+  outline: none;
+  border: 1px solid #cc00cc;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.generations {
+  color: #cc00cc;
+  font-size: 30px;
+}
+
+.back0 {
+  background-color: black;
+}
+
+.back1 {
+  background-color: #ac00e6;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(60, 15px);
+  border: 2px solid #666;
+}
+
+.grid-item {
+  margin: 0 auto;
+  border: 1px solid #262626;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+}
